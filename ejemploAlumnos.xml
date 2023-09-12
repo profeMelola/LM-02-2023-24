@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos>
+    <alumno>
+        <!-- FORMA 1: Nombre y apellidos en la misma etiqueta -->
+        <nombreCompleto>Pepito Grillo López</nombreCompleto>
+        <edad>18</edad>
+        <pais>España</pais>
+        <nacionalidad>española</nacionalidad>
+    </alumno>
+    <!-- FORMA 2: CON ATRIBUTOS -->
+    <alumno nombre="Pepito2" apellidos="Grillo López">
+        <edad>28</edad>
+        <pais>Italia</pais>
+        <nacionalidad>Italiano</nacionalidad>
+    </alumno>
+    <alumno>
+        <!-- FORMA 3: Tag nombre + Tag apellido -->
+        <nombre>Pepito</nombre>
+        <apellidos>Grillo López</apellidos>
+        <edad>18</edad>
+        <pais>España</pais>
+        <nacionalidad>española</nacionalidad>
+    </alumno>
+    <alumno>
+        <!-- FORMA 4: Tag nombre + Tag apellido1 + Tag apellido2 -->
+        <nombre>Pepito</nombre>
+        <apellido1>Grillo</apellido1>
+        <apellido2>López</apellido2>
+        <edad>18</edad>
+        <pais>España</pais>
+        <nacionalidad>española</nacionalidad>
+    </alumno>
+    <alumno>
+        <!-- FORMA 5: Tag nombre + Tag apellido repetidos -->
+        <nombre>Pepito</nombre>
+        <apellido>Grillo</apellido>
+        <apellido>López</apellido>
+        <edad>18</edad>
+        <pais>España</pais>
+        <nacionalidad>española</nacionalidad>
+    </alumno>
+    <alumno>
+        <!-- FORMA 6: Tag nombre + Tag apellidos con hijos apellido repetidos -->
+        <nombre>Pepito</nombre>
+        <apellidos>
+            <apellido>Grillo</apellido>
+            <apellido>López</apellido>
+        </apellidos>
+        <edad>18</edad>
+        <pais>España</pais>
+        <nacionalidad>española</nacionalidad>
+    </alumno>
+</alumnos>
