@@ -30,6 +30,7 @@ Color en primavera: Haz verde oscuro, envés verde plateado
 Resistencia a las heladas: Heladas medias (hasta -10ºC)
 
 **Platanus orientalis**
+
 Nombre común: Platano
 
 Vegetación: Caducifolio
