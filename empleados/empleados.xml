@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<empleados>
+    <empleado dni="01020503M">
+        <nombre>John</nombre>
+
+        <apellidos>
+            <apellido1>J</apellido1>
+            <apellido2>Rambo</apellido2>
+        </apellidos>
+
+        <!-- el orden me daría igual -->
+        <!-- 
+        <apellidos>
+            <apellido1>J</apellido1>
+            <apellido2>Rambo</apellido2>
+        </apellidos> -->
+        <!-- mejor esta opción. Sin contenedor padre. No me aporta nada el elemento padre -->
+        <segundo_apellido>Rambo</segundo_apellido>
+        <primer_apellido>J</primer_apellido>
+        
+
+        <!-- El DNI mejor como atributo -->
+        <!--
+        <DNI Numero="01020503M"/>
+        <DNI>01020503M</DNI>
+        -->
+
+        <fecha_nacimiento>19/05/2001</fecha_nacimiento>
+
+        <!-- si tengo la fecha de inicio de contrato, debería
+            calcular con la fecha actual la diferecia para tener la antiguedad -->
+        <!--
+        <antiguedad inicio="23/3/2023"/>
+        -->
+
+        <!-- contando que solo va a haber dos direcciones y no se va a ampliar -->
+        <!--
+        <direccion1>C/ Talamanca Nº 2</direccion1>
+        <direccion2>C/ Atenas Nº 12 2ºC</direccion2>
+        -->
+
+        <direcciones>
+            <!-- el orden es importante -->
+            <direccion>C/ Talamanca Nº 2</direccion>
+            <direccion>
+                <calle tipo="Calle">Atenas</calle>
+                <numero>12</numero>
+                <piso>2</piso>
+                <letra>C</letra>
+                <CP>28804</CP>
+                <localidad>Alcalá de Henares</localidad>
+                <provincia>Madrid</provincia>
+            </direccion>
+        </direcciones>
+
+        <!-- Las dos opciones son válidas, tanto el fijo como elemento hijo como atributo -->
+        <telefonos fijo="918888888">
+            <!--<fijo>918888888</fijo>-->
+            <!--<moviles>-->
+                <!-- el orden es importante si solo voy a guardar en BD el primer móvil -->
+                <movil></movil>
+                <movil></movil>
+                <movil></movil>
+                <movil></movil>
+            <!--</moviles>-->
+        </telefonos>
+
+        <!-- Si tiene N teléfonos móviles ¿Crearía un atributo por cada teléfono? 
+            Los atributos se usan cuando no van a extenderse en un futuro
+        -->
+        <!--
+        <telefono fijo="918526536" movil1="626985698" movil2="652985698"/>
+        -->
+
+
+    </empleado>
+
+
+</empleados>
