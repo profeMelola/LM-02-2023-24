@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<arboles>
+    <arbol nombreCientifico="Arce monsepessualnum">
+        <nombreComun>Arce de Montepellier, Arce menor</nombreComun>
+        <vegetacion>Caducifolio</vegetacion>
+        <altura medida="metros">
+            <min>6</min>
+            <max>10</max>
+            <media></media>
+        </altura>
+        <forma_estructura>
+            <copa>Esferica</copa>
+            <tronco>Recto con bifurcaciones</tronco>
+            <ramaje>Colgante</ramaje>
+        </forma_estructura>
+
+        <!--
+        <color estacion="primavera">Haz verde....</color>
+        -->
+
+        <color>
+            <primavera>Haz verde brillante, envés verde blanquecino</primavera>
+            <verano></verano>
+            <otoño></otoño>
+            <invierno></invierno>
+        </color>
+
+        <heladas>
+            <tipo>fuertes</tipo>
+            <max unidad="Centígrados">-15</max>
+        </heladas>
+
+    </arbol>
+
+
+    <arbol nombreCientifico="Olea europea">
+        <nombreComun>Olivo</nombreComun>
+        <vegetacion>Caducifolio</vegetacion>
+        <altura medida="metros">
+            <min>8</min>
+            <max>15</max>
+            <media></media>
+        </altura>
+        <forma_estructura>
+            <copa>Irregular</copa>
+            <tronco>Irregular con bifurcaciones</tronco>
+            <ramaje>Tortuoso</ramaje>
+        </forma_estructura>
+        <!--
+        <color estacion="privavera">Haz verde oscuro, envés verde plateado</color>
+        -->
+        <color>
+            <primavera>Haz verde brillante, envés verde blanquecino</primavera>
+            <verano></verano>
+            <otoño></otoño>
+            <invierno></invierno>
+        </color>
+
+
+        <heladas>
+            <tipo>medias</tipo>
+            <max unidad="Centígrados">-10</max>
+        </heladas>
+
+    </arbol>
+
+
+    <arbol nombreCientifico="Platanus orientalis">
+        <nombreComun>Platano</nombreComun>
+        <vegetacion>Caducifolio</vegetacion>
+        <altura medida="metros">
+            <min>20</min>
+            <max>25</max>
+            <media></media>
+        </altura>
+        <forma_estructura>
+            <tronco>Recto</tronco>
+            <ramaje>Expandido</ramaje>
+        </forma_estructura>
+        <color>
+            <otoño>Ocre</otoño>
+        </color>
+        <heladas>
+            <tipo>fuertes</tipo>
+            <max unidad="Centígrados">-20</max>
+        </heladas>
+    </arbol>
+
+
+    <arbol nombreCientifico="Quercus ilex">
+        <nombreCumun>Encima</nombreCumun>
+        <vegetacion>Perenne</vegetacion>
+
+        <altura medida="metros">
+            <min></min>
+            <max></max>
+            <media>25</media>
+        </altura>
+
+        <forma_estructura>
+            <copa>Esferica o eliptica irregular</copa>
+            <tronco>Recto</tronco>
+            <ramaje>Tortuoso</ramaje>
+        </forma_estructura>
+
+        <color>
+            <primavera> Plateado en hojas jóvenes. En hojas antiguas, haz verde oscuro, envés plateado</primavera>
+            <verano></verano>
+            <otoño></otoño>
+            <invierno></invierno>
+        </color>
+
+        <heladas>
+            <tipo>fuertes</tipo>
+            <max unidad="Centígrados">-15</max>
+        </heladas>
+    </arbol>
+</arboles>
