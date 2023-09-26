@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE empleados SYSTEM "empleadosv2.dtd">
 <empleados>
     <empleado dni="01020503M">
         <nombre>John</nombre>
 
+        <!-- No es necesario un contenedor padre porque siempre habrá dos apellidos -->
+        <!-- El orden sí es importante -->
+        <!--
         <apellidos>
-            <apellido1>J</apellido1>
-            <apellido2>Rambo</apellido2>
-        </apellidos>
-
+            <apellido>J</apellido>
+            <apellido>Rambo</apellido>
+        </apellidos>-->
         <!-- el orden me daría igual -->
         <!-- 
         <apellidos>
@@ -30,8 +33,9 @@
         <!-- si tengo la fecha de inicio de contrato, debería
             calcular con la fecha actual la diferecia para tener la antiguedad -->
         <!--
-        <antiguedad inicio="23/3/2023"/>
+        <antiguedad inicio="25/3/2023"/>
         -->
+        <antiguedad unidad="meses">7</antiguedad>
 
         <!-- contando que solo va a haber dos direcciones y no se va a ampliar -->
         <!--
