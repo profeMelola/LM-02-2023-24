@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tutorial>
+    <capitulo>introducción</capitulo>
+    <contenido>
+        <![CDATA[
+        El XML las etiquetas empiezan por < y luego se cierran
+        con > y el leng más fomoso e HTML tiene estas etiquetas
+        <html> <body></body>]]>
+    </contenido>
+</tutorial>
